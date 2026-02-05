@@ -175,12 +175,12 @@ if "MAFI MODE" in quote_modes:
 
     mafi_rows.extend([
         ["2", f"Cargo gate IN/OUT – {trailer_type}", gate_charges],
-        ["4A", "Option 1 – Direct Handling (Rs 900 / MT)", handling_option1_charges],
-        ["4B", "Option 2 – Double Handling (Rs 1800 / MT)", handling_option2_charges],
-        ["5", "Lashing charges (Rs 1100 / MT)", lashing_charges],
-        ["6", f"Lashing manpower (per Mafi x {no_of_mafi})", lashing_manpower],
-        ["7", f"Survey (per Mafi x {no_of_mafi})", survey_charges],
-        ["8", f"Tug master (per Mafi x {no_of_mafi})", tug_master_charges],
+        ["3A", "Option 1 – Direct Handling (Rs 900 / MT)", handling_option1_charges],
+        ["3B", "Option 2 – Double Handling (Rs 1800 / MT)", handling_option2_charges],
+        ["4", "Lashing charges (Rs 1100 / MT)", lashing_charges],
+        ["5", f"Lashing manpower (per Mafi x {no_of_mafi})", lashing_manpower],
+        ["6", f"Survey (per Mafi x {no_of_mafi})", survey_charges],
+        ["7", f"Tug master (per Mafi x {no_of_mafi})", tug_master_charges],
     ])
 
     mafi_table = pd.DataFrame(
